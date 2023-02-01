@@ -1,0 +1,32 @@
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\appsettings.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\WebApplication CRUD.exe
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\WebApplication CRUD.deps.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\WebApplication CRUD.runtimeconfig.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\WebApplication CRUD.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\WebApplication CRUD.pdb
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.AssemblyInfo.cs
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication CRUD.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication CRUD.props
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication CRUD.props
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication CRUD.props
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\scopedcss\bundle\WebApplication CRUD.styles.css
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.csproj.CopyComplete
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\refint\WebApplication CRUD.dll
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.pdb
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\WebApplication CRUD.genruntimeconfig.cache
+C:\Users\DELL\source\repos\WebApplication CRUD\WebApplication CRUD\obj\Debug\net6.0\ref\WebApplication CRUD.dll
