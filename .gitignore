@@ -286,6 +286,9 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
+bin/
+.bin/
+.vscode/
 
 # JetBrains Rider
 .idea/
