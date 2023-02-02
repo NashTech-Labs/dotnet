@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iy4Lcde2mEdEC1pszyE+VMx3MK3u96XZXwdQc0alA/KTqzYi8Zx5s5lpp2sYCH8G88pzWeHilo/nohKzOqKH3A==",
+  "dgSpecHash": "mnrP5jlifd8o4iItJeKUuO38ThQ0KSC6/wGkhRSs+MiWkn08opMHrNTujvhFR5lEnXaENU0p/v5v6Wnz3Qx8Xw==",
   "success": true,
-  "projectFilePath": "/home/knoldus/Downloads/DemoApi/DemoApi.csproj",
+  "projectFilePath": "/home/knoldus/Desktop/dotnet/DemoApi/DemoApi.csproj",
   "expectedPackageFiles": [
     "/home/knoldus/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/knoldus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

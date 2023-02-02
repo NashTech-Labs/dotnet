@@ -3,10 +3,10 @@ using userWebApi.Model;
 using DemoApi.Model;
 using DemoApi.service;
 namespace ServiceWebApi.Service;
-public class serviceimp : service
+public class serviceimplement : service
 {
-    private readonly Db _DBContext;
-    public serviceimp(Db dBContext)
+    private readonly Database _DBContext;
+    public serviceimplement(Database dBContext)
     {
         this._DBContext = dBContext;
     }

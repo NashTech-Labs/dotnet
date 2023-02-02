@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/knoldus/Downloads/DemoApi/DemoApi.csproj": {}
+    "/home/knoldus/Desktop/dotnet/DemoApi/DemoApi.csproj": {}
   },
   "projects": {
-    "/home/knoldus/Downloads/DemoApi/DemoApi.csproj": {
+    "/home/knoldus/Desktop/dotnet/DemoApi/DemoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/knoldus/Downloads/DemoApi/DemoApi.csproj",
+        "projectUniqueName": "/home/knoldus/Desktop/dotnet/DemoApi/DemoApi.csproj",
         "projectName": "DemoApi",
-        "projectPath": "/home/knoldus/Downloads/DemoApi/DemoApi.csproj",
+        "projectPath": "/home/knoldus/Desktop/dotnet/DemoApi/DemoApi.csproj",
         "packagesPath": "/home/knoldus/.nuget/packages/",
-        "outputPath": "/home/knoldus/Downloads/DemoApi/obj/",
+        "outputPath": "/home/knoldus/Desktop/dotnet/DemoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/knoldus/.nuget/NuGet/NuGet.Config"

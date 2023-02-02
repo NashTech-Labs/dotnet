@@ -6,12 +6,12 @@ namespace TestWebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class MyCntroller : ControllerBase
+public class UserInfo : ControllerBase
 {
   private readonly service _DBContext;
 
 
-    public MyCntroller(service dBContext)
+    public UserInfo(service dBContext)
     {
         this._DBContext = dBContext;
     }

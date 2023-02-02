@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace userWebApi.Model
 {
-    public partial class Db : DbContext
+    public partial class Database : DbContext
     {
-        public Db()
+        public Database()
         {
         }
 
-        public Db(DbContextOptions<Db> options)
+        public Database(DbContextOptions<Database> options)
             : base(options)
         {
         }
