@@ -8,7 +8,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+bin/
+.vscode/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -286,9 +287,6 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
-bin/
-.bin/
-.vscode/
 
 # JetBrains Rider
 .idea/
