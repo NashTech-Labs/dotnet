@@ -1,4 +1,6 @@
 using DemoApi.service;
+using Microsoft.EntityFrameworkCore;
+using DemoApi.Model;
 
 using userWebApi.Model;
 using ServiceWebApi.Service;

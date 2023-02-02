@@ -19,10 +19,10 @@ public class serviceimp : service
     }
     public User GetbyCode(int code)
     {
-        User product =   _DBContext.Users.Find(code);
-        if (product != null)
+        User user =   _DBContext.Users.Find(code);
+        if (user != null)
         {
-            return product;
+            return user;
         }
         else
         {
@@ -34,5 +34,37 @@ public class serviceimp : service
     {
         throw new NotImplementedException();
     }
+    public  bool Remove(int code)
+    {
+        var user =  _DBContext.Users.Find(code);
+        if (user != null)
+        {
+            this._DBContext.Remove(user);
+             this._DBContext.SaveChanges();
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public  User Save(User _user)
+    {
+        var user = this._DBContext.Users.FirstOrDefault(o => o.age == _user.age);
+        if (user != null)
+        {
+            user.name = _user.name;
+            user.companyName = _user.companyName;
+            this._DBContext.SaveChangesAsync();
+        }
+          else
+        {
+             this._DBContext.Users.Add(_user);
+             this._DBContext.SaveChanges();
+        }
+        return _user;
+    }
+
 }
         

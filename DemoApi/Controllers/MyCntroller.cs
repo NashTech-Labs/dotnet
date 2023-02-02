@@ -1,5 +1,6 @@
 using DemoApi.Model;
 using DemoApi.service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 namespace TestWebAPI.Controllers;
 
@@ -26,5 +27,20 @@ public class MyCntroller : ControllerBase
     {
         var user =  this._DBContext.GetbyCode(code);
         return  user;
+    }
+    [Authorize(Roles ="admin")]
+    [HttpDelete("Remove/{code}")]
+    public bool Remove(int code)
+    {
+        var product = this._DBContext.Remove(code);
+        return  false;
+    }
+
+    //[Authorize(Roles ="admin")]
+    [HttpPost("Create")]
+    public  User Create([FromBody] User _user)
+    {
+        var user = this._DBContext.Save(_user);
+        return _user;
     }
 }

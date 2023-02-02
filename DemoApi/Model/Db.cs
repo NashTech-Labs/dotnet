@@ -31,7 +31,7 @@ namespace userWebApi.Model
         {
             modelBuilder.Entity<User>(entity =>
        {
-           entity.ToTable("Product");
+           entity.ToTable("User");
        });
             OnModelCreatingPartial(modelBuilder);
         }
