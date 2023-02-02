@@ -15,6 +15,7 @@ public class PersonService : IPersonService
     public async Task CreateAsync(Person person)
     {
         await _mongoPersonCollection.InsertOneAsync(person);
+
     }
 
     public async Task<Person> Get(int id)
@@ -26,10 +27,10 @@ public class PersonService : IPersonService
         return await _mongoPersonCollection.Find(obj => true).ToListAsync();
     }
 
-    public async Task UpdateAsync(Person PersonToUpdate)
+    public async Task UpdateAsync(Person person,int id)
     {
         await _mongoPersonCollection.
-        ReplaceOneAsync(obj => obj.Id == PersonToUpdate.Id, PersonToUpdate);
+        ReplaceOneAsync(obj => obj.Id == id, person);
 
     }
 }

@@ -1,7 +1,6 @@
 using CrudApiWithMongoDB.Collections;
 using CrudApiWithMongoDB.Service;
 using Microsoft.AspNetCore.Mvc;
-
 namespace CrudApiWithMongoDB.Controllers;
 
 [ApiController]
@@ -15,30 +14,74 @@ public class PersonController : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<Person> Post(Person newPerson)
+    public async Task<ActionResult<Person>> Post(Person newPerson)
     {
-        await _personService.CreateAsync(newPerson);
-        return newPerson;
+        try
+        {
+            if (newPerson == null)
+            {
+                return BadRequest();
+            }
+            await _personService.CreateAsync(newPerson);
+            return newPerson;
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError,
+                "Error creating new record "+ex.Message);
+        }
     }
-     [HttpGet("getPerson/{id}")]
-    public async Task<Person> GetById(int id)
+    [HttpGet("getPerson/{id}")]
+    public async Task<ActionResult<Person>> GetById(int id)
     {
-      var person=  await _personService.Get(id);
-        return person;
+        try
+        {
+            var person = await _personService.Get(id);
+            if (person == null) return NotFound();
+            return person;
+
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError,
+                "Error retrieving data from the database "+ex.Message);
+        }
     }
-     [HttpGet("getAllPerson")]
-    public async Task<List<Person>> GetAllPersons()
+    [HttpGet("getAllPerson")]
+    public async Task<ActionResult<List<Person>>> GetAllPersons()
     {
-      var person=  await _personService.GetAll();
-        return person;
+        try
+        {
+            return await _personService.GetAll();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError,
+                "Error retrieving data from the database "+ex.Message);
+        }
     }
-    [HttpPut("updatePerson")]
-    public async Task<IActionResult> Put(Person personToUpdate)
-    { var person=_personService.Get(personToUpdate.Id);
-    if(person==null){
-        return NotFound();
-    }
-        await _personService.UpdateAsync(personToUpdate);
-        return Ok(personToUpdate);
+   
+    [HttpPut("updatePerson/{id}")]
+    public async Task<ActionResult<Person>> UpdatePerson(Person person, int id)
+    {
+        try
+        {
+            if (id != person.Id)
+                return BadRequest("Person ID mismatch");
+
+            var personToUpdate = await _personService.Get(id);
+
+            if (personToUpdate == null)
+                return NotFound($"Employee with Id = {id} not found");
+
+            await _personService.UpdateAsync(person, id);
+            return Ok(person);
+
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError,
+                "Error updating data "+ex.Message);
+        }
     }
 }
