@@ -6,21 +6,21 @@ using AutoMapper;
 namespace ProductWebApi.Service;
 public class ProductServiceImpl : ProductService
 {
-    private readonly Learn_DBContext _DBContext;
-    public ProductServiceImpl(Learn_DBContext dBContext)
+    private readonly ProductDBContext _ProductDBContext;
+    public ProductServiceImpl(ProductDBContext productDBContext)
     {
-        this._DBContext = dBContext;
+        this._ProductDBContext = productDBContext;
     }
 
     public List<Product> GetAll()
     {
         List<Product> resp = new List<Product>();
-        List<Product> product =  _DBContext.Products.ToList();
+        List<Product> product =  _ProductDBContext.Products.ToList();
         return product;
     }
     public Product GetbyCode(int code)
     {
-        Product product =   _DBContext.Products.Find(code);
+        Product product =   _ProductDBContext.Products.Find(code);
         if (product != null)
         {
             return product;
@@ -32,11 +32,11 @@ public class ProductServiceImpl : ProductService
     }
     public  bool Remove(int code)
     {
-        var product =  _DBContext.Products.Find(code);
+        var product =  _ProductDBContext.Products.Find(code);
         if (product != null)
         {
-            this._DBContext.Remove(product);
-             this._DBContext.SaveChanges();
+            this._ProductDBContext.Remove(product);
+             this._ProductDBContext.SaveChanges();
             return true;
         }
         else
@@ -45,22 +45,21 @@ public class ProductServiceImpl : ProductService
         }
     }
 
-    public  Product Save(Product _product)
+    public  Product Save(Product productObj)
     {
-        var product = this._DBContext.Products.FirstOrDefault(o => o.Id == _product.Id);
-        Console.WriteLine("sdfghjkjhgf"+product);
+        var product = this._ProductDBContext.Products.FirstOrDefault(o => o.Id == productObj.Id);
         if (product != null)
         {
-            product.Name = _product.Name;
-            product.Price = _product.Price;
-            this._DBContext.SaveChangesAsync();
+            product.Name = productObj.Name;
+            product.Price = productObj.Price;
+            this._ProductDBContext.SaveChangesAsync();
         }
           else
         {
-             this._DBContext.Products.Add(_product);
-             this._DBContext.SaveChanges();
+             this._ProductDBContext.Products.Add(productObj);
+             this._ProductDBContext.SaveChanges();
         }
-        return _product;
+        return productObj;
     }
 
 }

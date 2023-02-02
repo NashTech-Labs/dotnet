@@ -68,5 +68,3 @@ fastlane/test_output
 iOSInjectionProject/
 .vscode/
 bin/
-.vscode
-bin

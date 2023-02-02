@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ProductService,ProductServiceImpl>();
 
 
-builder.Services.AddDbContext<Learn_DBContext>(options =>
+builder.Services.AddDbContext<ProductDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("constring"));
 });

@@ -7,7 +7,7 @@ namespace ProductWebApi.Controllers;
 
 ///[Authorize(Roles ="admin,user")]
 [ApiController]
-[Route("[controller]")]
+[Route("/api")]
 public class ProductController : ControllerBase
 {
 
@@ -32,7 +32,7 @@ public class ProductController : ControllerBase
         return  product;
     }
 
-    [Authorize(Roles ="admin")]
+    // [Authorize(Roles ="admin")]
     [HttpDelete("Remove/{code}")]
     public bool Remove(int code)
     {
@@ -47,4 +47,5 @@ public class ProductController : ControllerBase
         var product = this._DBContext.Save(_product);
         return product;
     }
+
 }

@@ -7,4 +7,5 @@ public interface ProductService
      Product GetbyCode(int code);
      bool Remove(int code);
      Product Save(Product _product);
+
 }

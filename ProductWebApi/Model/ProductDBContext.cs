@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace ProductWebApi.Model
 {
-    public partial class Learn_DBContext : DbContext
+    public partial class ProductDBContext : DbContext
     {
-        public Learn_DBContext()
+        public ProductDBContext()
         {
         }
 
-        public Learn_DBContext(DbContextOptions<Learn_DBContext> options)
+        public ProductDBContext(DbContextOptions<ProductDBContext> options)
             : base(options)
         {
         }

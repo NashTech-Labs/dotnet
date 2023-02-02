@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/knoldus/Downloads/ProductWebApi/ProductWebApi.csproj": {}
+    "/home/knoldus/dotnet/ProductWebApi/ProductWebApi.csproj": {}
   },
   "projects": {
-    "/home/knoldus/Downloads/ProductWebApi/ProductWebApi.csproj": {
+    "/home/knoldus/dotnet/ProductWebApi/ProductWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/knoldus/Downloads/ProductWebApi/ProductWebApi.csproj",
+        "projectUniqueName": "/home/knoldus/dotnet/ProductWebApi/ProductWebApi.csproj",
         "projectName": "ProductWebApi",
-        "projectPath": "/home/knoldus/Downloads/ProductWebApi/ProductWebApi.csproj",
+        "projectPath": "/home/knoldus/dotnet/ProductWebApi/ProductWebApi.csproj",
         "packagesPath": "/home/knoldus/.nuget/packages/",
-        "outputPath": "/home/knoldus/Downloads/ProductWebApi/obj/",
+        "outputPath": "/home/knoldus/dotnet/ProductWebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/knoldus/.nuget/NuGet/NuGet.Config"
