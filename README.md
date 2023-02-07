@@ -48,7 +48,7 @@ resource "azurerm_linux_function_app" "example" {
 | Name   | Description                               | Type        |
 |--------|-------------------------------------------|-------------|
 | name   | Name of the created Infra.           | version            |
-| azurerm| provider "azurerm" { features {} }   |  version = "=3.0.0"|                    
+| azurerm| provider "azurerm" { features {} }   | "=3.0.0"           |                    
 
 ## Changelog
 
