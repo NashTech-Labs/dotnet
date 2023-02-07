@@ -48,9 +48,7 @@ resource "azurerm_linux_function_app" "example" {
 | Name   | Description                               | Type        |
 |--------|-------------------------------------------|-------------|
 | name   | Name of the created Infra.           | string      |
-| azurerm| provider "azurerm" {                 | map(string) |
-             features {}
-            }                     
+| azurerm| provider "azurerm" { features {} }   | map(string) |                    
 
 ## Changelog
 
