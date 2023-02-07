@@ -43,12 +43,14 @@ resource "azurerm_linux_function_app" "example" {
 | tolerations      | Tolerations to apply to the created pods.                                                                                | list(object({ key=string, value=string }))                            | `[]`    | No       |
 | wait_for_rollout | Wait for the successful rollout of the deployment to complete.                                                           | bool                                                                  | `true`  | No       |
 
-## Outputs
+## Azure Provider
 
 | Name   | Description                               | Type        |
 |--------|-------------------------------------------|-------------|
-| name   | Name of the created deployment.           | string      |
-| labels | Labels applied to the created deployment. | map(string) |
+| name   | Name of the created Infra.           | string      |
+| azurerm| provider "azurerm" {
+  features {}
+}| map(string) |
 
 ## Changelog
 
