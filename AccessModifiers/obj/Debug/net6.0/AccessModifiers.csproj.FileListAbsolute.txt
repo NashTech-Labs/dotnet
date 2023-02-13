@@ -1,0 +1,15 @@
+/home/knoldus/Downloads/AccessModifiers/bin/Debug/net6.0/AccessModifiers
+/home/knoldus/Downloads/AccessModifiers/bin/Debug/net6.0/AccessModifiers.deps.json
+/home/knoldus/Downloads/AccessModifiers/bin/Debug/net6.0/AccessModifiers.runtimeconfig.json
+/home/knoldus/Downloads/AccessModifiers/bin/Debug/net6.0/AccessModifiers.dll
+/home/knoldus/Downloads/AccessModifiers/bin/Debug/net6.0/AccessModifiers.pdb
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.csproj.AssemblyReference.cache
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.GeneratedMSBuildEditorConfig.editorconfig
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.AssemblyInfoInputs.cache
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.AssemblyInfo.cs
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.csproj.CoreCompileInputs.cache
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.dll
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/refint/AccessModifiers.dll
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.pdb
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/AccessModifiers.genruntimeconfig.cache
+/home/knoldus/Downloads/AccessModifiers/obj/Debug/net6.0/ref/AccessModifiers.dll

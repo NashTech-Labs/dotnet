@@ -1,0 +1,15 @@
+/home/knoldus/Downloads/Classes_And_Objects/bin/Debug/net6.0/Classes_And_Objects
+/home/knoldus/Downloads/Classes_And_Objects/bin/Debug/net6.0/Classes_And_Objects.deps.json
+/home/knoldus/Downloads/Classes_And_Objects/bin/Debug/net6.0/Classes_And_Objects.runtimeconfig.json
+/home/knoldus/Downloads/Classes_And_Objects/bin/Debug/net6.0/Classes_And_Objects.dll
+/home/knoldus/Downloads/Classes_And_Objects/bin/Debug/net6.0/Classes_And_Objects.pdb
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.csproj.AssemblyReference.cache
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.GeneratedMSBuildEditorConfig.editorconfig
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.AssemblyInfoInputs.cache
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.AssemblyInfo.cs
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.csproj.CoreCompileInputs.cache
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.dll
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/refint/Classes_And_Objects.dll
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.pdb
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/Classes_And_Objects.genruntimeconfig.cache
+/home/knoldus/Downloads/Classes_And_Objects/obj/Debug/net6.0/ref/Classes_And_Objects.dll
