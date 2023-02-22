@@ -6,26 +6,25 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: default
 
 stages:
 - stage: validate
   jobs:
   - job: validate
     steps:
-    - cmd: terraform validate
+    - script: terraform validate
 
 
 - stage: plan
   jobs:
   - job: plan
     steps:
-    - cmd: terraform plan
+    - script: terraform plan
     
     
 - stage: deploy
   jobs:
   - job: deploy
     steps:
-    - cmd: terraform apply
+    - script: terraform apply
