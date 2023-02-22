@@ -14,18 +14,18 @@ stages:
   jobs:
   - job: validate
     steps:
-    - task: terraform validate
+    - cmd: terraform validate
 
 
 - stage: plan
   jobs:
   - job: plan
     steps:
-    - task: terraform plan
+    - cmd: terraform plan
     
     
 - stage: deploy
   jobs:
   - job: deploy
     steps:
-    - task: terraform apply
+    - cmd: terraform apply
