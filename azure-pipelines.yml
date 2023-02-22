@@ -15,6 +15,7 @@ stages:
   - job: validate
     steps:
     - script: terraform validate
+      displayName: Run validate
 
 
 - stage: plan
@@ -22,6 +23,7 @@ stages:
   - job: plan
     steps:
     - script: terraform plan
+      displayName: run plan
     
     
 - stage: deploy
@@ -29,3 +31,4 @@ stages:
   - job: deploy
     steps:
     - script: terraform apply
+      displayName: run apply
