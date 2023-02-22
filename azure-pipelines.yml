@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: Azure Pipelines
+pool:
+   vmImage: 'ubuntu-22.04'
 
 stages:
 - stage: validate
