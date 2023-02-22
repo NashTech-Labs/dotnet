@@ -14,16 +14,19 @@ stages:
   jobs:
   - job: validate
     steps:
-      terraform validate
+    - step: terraform validate
+
 
 - stage: plan
   jobs:
   - job: plan
     steps:
-      terraform plan
+    steps:
+    - step: terraform plan
+    
     
 - stage: deploy
   jobs:
   - job: deploy
     steps:
-      terraform apply
+    - step: terraform apply
