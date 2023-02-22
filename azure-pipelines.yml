@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: local
+pool: Azure Pipelines
 
 stages:
 - stage: validate
