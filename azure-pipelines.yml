@@ -30,5 +30,5 @@ stages:
   jobs:
   - job: deploy
     steps:
-    - script: 
+    - script: terraform apply -input=false tfplan 
       displayName: run apply
