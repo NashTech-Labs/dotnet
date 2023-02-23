@@ -24,11 +24,11 @@ stages:
     steps:
     - script: terraform plan -out=tfplan -input=false
       displayName: run plan
-    
-    
+
+
 - stage: deploy
   jobs:
   - job: deploy
     steps:
-    - script: terraform apply -input=false tfplan 
+    - script: terraform apply -input=false tfplan
       displayName: run apply
