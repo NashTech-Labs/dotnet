@@ -14,7 +14,7 @@ stages:
   jobs:
   - job: validate
     steps:
-    - script: terraform validate
+    - script: terraform init -input=false
       displayName: Run validate
 
 
@@ -22,7 +22,7 @@ stages:
   jobs:
   - job: plan
     steps:
-    - script: terraform plan
+    - script: terraform plan -out=tfplan -input=false
       displayName: run plan
     
     
@@ -30,5 +30,5 @@ stages:
   jobs:
   - job: deploy
     steps:
-    - script: terraform apply
+    - script: 
       displayName: run apply
